@@ -1,0 +1,52 @@
+
+  <?php
+  $detaili = 0;
+  function addDevice() {
+
+  }
+  ?>
+  <table>
+    <caption> Aduino signal </caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Flame</th>
+        <th>Smoke</th>
+        <th>Temperature</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Device1</th>
+        <td>D_1_F</td>
+        <td>D_1_S</td>
+        <td>D_1_T</td>
+      </tr>
+      <tr>
+        <th>Device2</th>
+        <td>D_2_F</td>
+        <td>D_2_S</td>
+        <td>D_2_T</td>
+      </tr>
+      <tr>
+        <th>Device3</th>
+        <td>D_3_F</td>
+        <td>D_3_S</td>
+        <td>D_3_T</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="2">Warning Device Check</th>
+        <td colspan="2">Num_W</td>
+      </tr>
+      <tr>
+        <td>
+          <input type=button value="추가" onclick="addDevice()">
+        </td>
+        <td colspan="3">
+          <input type="text" name="Device_N" value="기기번호">
+        </td>
+      </tr>
+    </tfoot>
+  </table>
